@@ -1,0 +1,318 @@
+.MainWelcome {
+  .mainInfo {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+
+    background-attachment: fixed;
+
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 100px;
+      .mainContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        p {
+          font-size: 18px;
+          color: white;
+        }
+        .text {
+          width: 50%;
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          gap: 20px;
+          h1 {
+            font-size: 40px;
+            color: white;
+          }
+
+          .group {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 5px;
+            ul {
+              padding-left: 50px;
+              li {
+                color: white;
+                font-size: 15px;
+              }
+            }
+          }
+          .theme {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 20px;
+          }
+        }
+        .image {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 50px;
+          .imgMain {
+            width: 580px;
+            height: 450px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0px 0px 15px rgba(0, 70, 140, 0.5);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+            &:hover {
+              transform: scale(1.02);
+              box-shadow: 0px 0px 25px rgba(0, 70, 140, 0.7);
+            }
+          }
+          .btns {
+            display: flex;
+            gap: 15px;
+
+            button {
+              padding: 12px 30px;
+              border-radius: 50px;
+              font-size: 15px;
+              font-weight: bold;
+              transition: 0.4s ease-in-out;
+              cursor: pointer;
+            }
+
+            .btn__first {
+              background: #1e90ff;
+              color: white;
+              border: 2px solid white;
+              box-shadow: 0 4px 10px rgba(0, 70, 140, 0.3);
+
+              &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 6px 15px rgba(0, 70, 140, 0.5);
+              }
+
+              &:active {
+                transform: scale(0.98);
+              }
+            }
+
+            .btn__second {
+              background: transparent;
+              color: white;
+              border: 2px solid white;
+
+              &:hover {
+                background: #1e90ff;
+                color: white;
+                transform: scale(1.05);
+              }
+            }
+          }
+        }
+      }
+      .video {
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+      }
+    }
+  }
+  .scrollLogo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0 50px 0;
+    .logo {
+      width: 200px;
+      height: 50px;
+      object-fit: contain;
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 1124px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        .mainContent {
+          width: 100%;
+          .text {
+            width: 50%;
+          }
+          .image {
+            width: 50%;
+            text-align: center;
+            .imgMain {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        .mainContent {
+          width: 100%;
+          .text {
+            width: 50%;
+          }
+          .image {
+            width: 50%;
+            text-align: center;
+            .imgMain {
+              height: 400px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 855px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        .mainContent {
+          width: 100%;
+          .text {
+            width: 50%;
+            h1 {
+              font-size: 35px;
+            }
+          }
+          .image {
+            width: 50%;
+            text-align: center;
+            .imgMain {
+              height: 400px;
+              width: 100%;
+            }
+            .btns {
+              button {
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        gap: 50px;
+        .mainContent {
+          width: 100%;
+          flex-direction: column;
+          p {
+            font-size: 15px;
+          }
+          .text {
+            width: 100%;
+            h1 {
+              font-size: 25px;
+            }
+            .theme {
+              display: flex;
+              align-items: start;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+          }
+          .image {
+            width: 100%;
+            text-align: center;
+            .imgMain {
+              height: 400px;
+              width: 100%;
+            }
+            .btns {
+              button {
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+        .video {
+          height: 400px;
+        }
+      }
+    }
+    .scrollLogo {
+      .logo {
+        width: 120px;
+        height: 40px;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        gap: 50px;
+        .mainContent {
+          width: 100%;
+          flex-direction: column;
+          p {
+            font-size: 15px;
+          }
+          .text {
+            width: 100%;
+            h1 {
+              font-size: 25px;
+            }
+            .theme {
+              flex-direction: column;
+            }
+          }
+          .image {
+            .imgMain {
+              height: 300px;
+              width: 100%;
+            }
+            .btns {
+              button {
+                padding: 10px 20px;
+                font-size: 13px;
+              }
+            }
+          }
+        }
+        .video {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .MainWelcome {
+    .mainInfo {
+      .content {
+        .mainContent {
+          .image {
+            gap: 20px;
+            .imgMain {
+              height: 250px;
+              width: 100%;
+            }
+          }
+        }
+        .video {
+          height: 250px;
+        }
+      }
+    }
+  }
+}

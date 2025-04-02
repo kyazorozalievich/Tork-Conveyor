@@ -1,0 +1,46 @@
+.ContactMap {
+  padding-block: 50px;
+  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    h5 {
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      padding-inline: 10px;
+      padding-block: 5px;
+      border-radius: 50px;
+      background: #0104082e;
+    }
+    h1 {
+      font-size: 40px;
+      color: white;
+    }
+    h6 {
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ContactMap {
+    .content {
+      h1 {
+        font-size: 25px;
+      }
+      h6 {
+        font-size: 15px;
+      }
+      h5 {
+        font-size: 13px;
+      }
+    }
+  }
+}

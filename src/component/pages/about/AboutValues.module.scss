@@ -1,0 +1,173 @@
+.AboutValues {
+  position: relative;
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    h5 {
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      padding-inline: 10px;
+      padding-block: 5px;
+      border-radius: 50px;
+      background: #0104082e;
+    }
+    h1 {
+      font-size: 40px;
+
+      color: white;
+    }
+    h6 {
+      font-size: 18px;
+      font-weight: 400;
+      color: white;
+      width: 70%;
+      text-align: center;
+    }
+    .video-background {
+      width: 100px;
+    }
+    .valuesData {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      button {
+        display: none;
+      }
+      .block {
+        width: 400px;
+        height: 200px;
+        background: white;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 10px;
+        a {
+          width: 40px;
+          height: 40px;
+          background: #1e8fff3a;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        h6 {
+          font-size: 15px;
+          text-align: start;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .AboutValues {
+    .content {
+      gap: 20px;
+      align-items: start;
+      h6 {
+        text-align: start;
+      }
+      .valuesData {
+        justify-content: start;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .AboutValues {
+    .content {
+      h1 {
+        font-size: 25px;
+      }
+      h6 {
+        font-size: 15px;
+      }
+      h5 {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (max-width: 630px) {
+  .AboutValues {
+    .content {
+      .valuesData {
+        gap: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 580px) {
+  .AboutValues {
+    .content {
+      h6 {
+        width: 100%;
+      }
+      .valuesData {
+        gap: 30px;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 300px;
+        padding-inline: 10px;
+        position: relative;
+        button {
+          display: block;
+          font-size: 35px;
+          width: 40px;
+          height: 40px;
+          border-radius: 50px;
+          backdrop-filter: blur(20px);
+          position: sticky;
+          z-index: 98;
+          border: none;
+          color: black;
+        }
+        .left {
+          top: 20px;
+          left: 0px;
+        }
+        .right {
+          top: 20px;
+          right: 0px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 440px) {
+  .AboutValues {
+    .content {
+      .valuesData {
+        gap: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 350px) {
+  .AboutValues {
+    .content {
+      .valuesData {
+        gap: 20px;
+      }
+    }
+  }
+}
