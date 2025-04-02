@@ -1,14 +1,9 @@
 "use client"
-import scss from "./TobaccoIndustry.module.scss";
+import IndustryAllPage from "../ConveyorPages/IndustryAllPage";
+
 
 const TobaccoIndustry = () => {
- return (
-  <section className={scss.TobaccoIndustry}>
-   <div className="container">
-    <div className={scss.content}>TobaccoIndustry</div>
-   </div>
-  </section>
- );
+    return <IndustryAllPage data={[]} />;
 };
 
 export default TobaccoIndustry;

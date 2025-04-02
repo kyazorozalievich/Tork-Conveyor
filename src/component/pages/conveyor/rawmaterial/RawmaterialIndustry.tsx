@@ -1,14 +1,9 @@
 "use client"
-import scss from "./RawmaterialIndustry.module.scss";
+import IndustryAllPage from "../ConveyorPages/IndustryAllPage";
+
 
 const RawmaterialIndustry = () => {
- return (
-  <section className={scss.RawmaterialIndustry}>
-   <div className="container">
-    <div className={scss.content}>RawmaterialIndustry</div>
-   </div>
-  </section>
- );
+    return <IndustryAllPage data={[]} />;
 };
 
 export default RawmaterialIndustry;
