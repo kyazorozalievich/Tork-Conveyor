@@ -1,14 +1,9 @@
 "use client";
-import scss from "../IndustryAllPage.module.scss";
+
+import IndustryAllPage from "../ConveyorPages/IndustryAllPage";
 
 const LogisticIndustry = () => {
-  return (
-    <section className={scss.Industry}>
-      <div className="container">
-        <div className={scss.content}>LogisticIndustry</div>
-      </div>
-    </section>
-  );
+  return <IndustryAllPage data={[]} />;
 };
 
 export default LogisticIndustry;

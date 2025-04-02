@@ -1,14 +1,9 @@
 "use client";
+import InfoAllPage from "../ConveyorPages/InfoAllPage";
 import scss from "../InfoAllPage.module.scss";
 
 const LogisticInfo = () => {
-  return (
-    <section className={scss.InfoPage}>
-      <div className="container">
-        <div className={scss.content}>LogisticInfo</div>
-      </div>
-    </section>
-  );
+  return <InfoAllPage data={[]} />;
 };
 
 export default LogisticInfo;

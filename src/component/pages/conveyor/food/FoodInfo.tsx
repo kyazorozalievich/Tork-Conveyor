@@ -1,14 +1,9 @@
 "use client";
-import scss from "../InfoAllPage.module.scss";
+
+import InfoAllPage from "../ConveyorPages/InfoAllPage";
 
 const FoodInfo = () => {
-  return (
-    <section className={scss.InfoPage}>
-      <div className="container">
-        <div className={scss.content}>FoodInfo</div>
-      </div>
-    </section>
-  );
+  return <InfoAllPage data={[]} />;
 };
 
 export default FoodInfo;
