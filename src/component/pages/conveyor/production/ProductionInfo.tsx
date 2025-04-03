@@ -10,10 +10,10 @@ const ProductionInfo = () => {
       infoMain: {
         title: "Revolutionizing Industrial Manufacturing",
         description: [
-          "At Tork A.S., we understand the complex demands of modern industrial production. Our conveyor systems are designed to optimize assembly lines, enhance production efficiency, and reduce operational costs across various manufacturing sectors.",
+          "At Tork A.Ş., we understand the complex demands of modern industrial production. Our conveyor systems are designed to optimize assembly lines, enhance production efficiency, and reduce operational costs across various manufacturing sectors.",
           "From automotive assembly to electronics manufacturing and pharmaceutical production, our customized conveyor solutions integrate seamlessly with your existing processes, helping you achieve unprecedented levels of productivity and quality control.",
         ],
-      },
+      }, 
     },
     {
       infoBlocks: [

@@ -14,48 +14,38 @@ import akplas from "@/component/assets/images/logo/company-akplas.png";
 import frimpeks from "@/component/assets/images/logo/company-frimpeks.png";
 import schott from "@/component/assets/images/logo/company-schott.svg";
 import spolgas from "@/component/assets/images/logo/company-spolgas.png";
+import ytong from "@/component/assets/images/logo/ytong.png";
+import jefleks from "@/component/assets/images/logo/jefleks.png";
+import deva from "@/component/assets/images/logo/deva.jpg";
+import setas from "@/component/assets/images/logo/setas.webp";
+import penti from "@/component/assets/images/logo/penti.png";
+import sanifoam from "@/component/assets/images/logo/sanifoam.png";
+import korozo from "@/component/assets/images/logo/korozo.png";
+import posetsan from "@/component/assets/images/logo/posetsan.png";
 
 const AboutCompany = () => {
   const dataLogo = [
-    {
-      logo: arcelik,
-    },
-    {
-      logo: midea,
-    },
-    {
-      logo: pas,
-    },
-    {
-      logo: bauer,
-    },
-    {
-      logo: coko,
-    },
-    {
-      logo: bsh,
-    },
-    {
-      logo: bosch,
-    },
-    {
-      logo: vaillant,
-    },
-    {
-      logo: threeM,
-    },
-    {
-      logo: akplas,
-    },
-    {
-      logo: frimpeks,
-    },
-    {
-      logo: schott,
-    },
-    {
-      logo: spolgas,
-    },
+    arcelik,
+    midea,
+    pas,
+    bauer,
+    coko,
+    bsh,
+    bosch,
+    vaillant,
+    threeM,
+    akplas,
+    frimpeks,
+    schott,
+    spolgas,
+    ytong,
+    jefleks,
+    deva,
+    setas,
+    penti,
+    sanifoam,
+    korozo,
+    posetsan,
   ];
 
   return (
@@ -77,14 +67,8 @@ const AboutCompany = () => {
             set standards for the entire industry.
           </p>
           <div className={scss.companyLogo}>
-            {dataLogo.map((el, idx) => (
-              <Image
-                src={el.logo}
-                alt="logo"
-                width={200}
-                height={50}
-                key={idx}
-              />
+            {dataLogo.map((logo, idx) => (
+              <Image src={logo} alt="logo" width={200} height={50} key={idx} />
             ))}
           </div>
         </div>

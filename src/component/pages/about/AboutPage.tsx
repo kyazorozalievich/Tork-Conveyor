@@ -1,20 +1,15 @@
 import React from "react";
 import AboutMain from "./AboutMain";
-import AboutValues from "./AboutValues";
-import AboutJourney from "./AboutJourney";
 import AboutCompany from "./AboutCompany";
-import Consultation from "../products/Consultation";
-import AboutCharacter from "./AboutCharacter";
+import Consultation from "../conveyor/ConveyorPages/Consultation";
+import AboutConveyor from "./AboutConveyor";
 
 const AboutPage = () => {
   return (
-    <div
-    >
+    <div>
       <AboutMain />
-      <AboutCharacter />
-      <AboutValues />
       <AboutCompany />
-      <AboutJourney />
+      <AboutConveyor />
       <Consultation />
     </div>
   );

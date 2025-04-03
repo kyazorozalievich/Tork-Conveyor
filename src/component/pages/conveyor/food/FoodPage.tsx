@@ -9,10 +9,10 @@ const FoodPage = () => {
   return (
     <div>
       <FoodMain />
-      <FoodSafe />
-      <FoodIndustry />
       <FoodInfo />
+      <FoodIndustry />
       <Consultation />
+      <FoodSafe />
     </div>
   );
 };

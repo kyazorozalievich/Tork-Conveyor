@@ -99,6 +99,7 @@ const Header = () => {
             <span onClick={() => router.push("/")}>
               <Image src={logo} alt="" className={scss.logo} />
             </span>
+            Ş
             <div className={scss.nav}>
               <Link
                 href="/"

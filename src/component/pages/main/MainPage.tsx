@@ -1,8 +1,9 @@
 import React from "react";
 import MainWelcome from "./MainWelcome";
 import MainEquipment from "./MainEquipment";
-import MainAdvantages from "./MainAdvantages";
-import Consultation from "../products/Consultation";
+import Consultation from "../conveyor/ConveyorPages/Consultation";
+import MainConveyors from "./MainConveyors";
+import MainInfo from "./MainInfo";
 
 const MainPage = () => {
   return (
@@ -14,7 +15,8 @@ const MainPage = () => {
     >
       <MainWelcome />
       <MainEquipment />
-      <MainAdvantages />
+      <MainConveyors />
+      <MainInfo />
       <Consultation />
     </div>
   );

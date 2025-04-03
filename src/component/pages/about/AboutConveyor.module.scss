@@ -1,5 +1,5 @@
-.AboutCharacter {
-  padding-block: 100px;
+.AboutConveyor {
+  padding-top: 100px;
   .content {
     display: flex;
     align-items: center;
@@ -22,51 +22,54 @@
       width: 70%;
     }
     p {
-      font-size: 15px;
+      font-size: 20px;
       color: white;
       padding-bottom: 30px;
       width: 80%;
     }
-    .CharacterBlcoks {
+    .ConveyorBlocks {
       button {
         font-size: 30px;
         border-radius: 50px;
-        backdrop-filter: blur(20px);
         position: sticky;
         z-index: 98;
-        border: 2px solid black;
-        color: black;
+        border: 2px solid white;
+        color: white;
         padding-inline: 10px;
         padding-block: 7px;
+        background: transparent;
       }
 
       .left {
-        top: 50%;
+        top: 40%;
         left: 0px;
+        backdrop-filter: blur(20px);
       }
 
       .right {
-        top: 50%;
+        top: 40%;
         right: 0px;
+        backdrop-filter: blur(20px);
       }
       display: flex;
       align-items: start;
       justify-content: start;
       width: 100%;
-      height: 650px;
+      height: 550px;
       overflow-x: scroll;
       gap: 20px;
       padding-inline: 20px;
       scrollbar-width: none;
-      .CharacterBlcok {
+      .ConveyorBlock {
         flex: 0 0 auto;
         width: 400px;
         display: flex;
         align-items: start;
         flex-direction: column;
-        height: 600px;
-        gap: 20px;
-        background: white;
+        height: 500px;
+        gap: 10px;
+        background: rgba(0, 0, 0, 0.196);
+        backdrop-filter: blur(20px);
         padding: 20px;
         border-radius: 10px;
         img {
@@ -78,22 +81,32 @@
         h3 {
           font-size: 20px;
           font-weight: 500;
-          padding-inline: 10px;
-        }
-        ul {
-          display: flex;
-          align-items: start;
-          flex-direction: column;
-          gap: 10px;
-          text-align: start;
-          padding-inline: 30px;
-          li {
-            font-size: 15px;
-          }
+          color: white;
         }
         p {
           text-align: start;
           font-size: 15px;
+          width: 100%;
+          padding-bottom: 0;
+        }
+        button {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          font-size: 15px;
+          background: transparent;
+          border: none;
+          color: white;
+          transition: 0.5s ease-in-out;
+          border-bottom: 2px solid transparent;
+          border-radius: 0;
+          width: auto;
+          height: auto;
+          justify-content: center;
+          &:hover {
+            transform: scale(1.05);
+            border-bottom: 2px solid white;
+          }
         }
       }
     }
@@ -101,7 +114,7 @@
 }
 
 @media (max-width: 900px) {
-  .AboutCharacter {
+  .AboutConveyor {
     .content {
       align-items: start;
       text-align: start;
@@ -115,7 +128,7 @@
   }
 }
 @media (max-width: 768px) {
-  .AboutCharacter {
+  .AboutConveyor {
     padding-block: 20px;
     .content {
       h5 {
@@ -128,14 +141,14 @@
       p {
         width: 100%;
       }
-      .CharacterBlcoks {
+      .ConveyorBlocks {
         padding-inline: 0;
         height: 600px;
         button {
           padding-inline: 5px;
           padding-block: 2px;
         }
-        .CharacterBlcok {
+        .ConveyorBlock {
           width: 350px;
           height: 570px;
           h3 {
@@ -153,19 +166,19 @@
 }
 
 @media (max-width: 450px) {
-  .AboutCharacter {
+  .AboutConveyor {
     .content {
       h1 {
         width: 100%;
       }
-      .CharacterBlcoks {
+      .ConveyorBlocks {
         height: 600px;
         button {
           padding-inline: 5px;
           padding-block: 2px;
           border: none;
         }
-        .CharacterBlcok {
+        .ConveyorBlock {
           width: 320px;
           height: 570px;
           img {
@@ -185,16 +198,16 @@
   }
 }
 @media (max-width: 400px) {
-  .AboutCharacter {
+  .AboutConveyor {
     .content {
-      .CharacterBlcoks {
+      .ConveyorBlocks {
         height: 550px;
         button {
           padding-inline: 5px;
           padding-block: 2px;
           border: none;
         }
-        .CharacterBlcok {
+        .ConveyorBlock {
           width: 300px;
           height: 500px;
           img {

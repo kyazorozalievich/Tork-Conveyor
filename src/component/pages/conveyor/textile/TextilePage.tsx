@@ -11,8 +11,8 @@ const TextilePage = () => {
       <TextileMain />
       <TextileInfo />
       <TextileIndustry />
-      <TextileSystem />
       <Consultation />
+      <TextileSystem />
     </div>
   );
 };

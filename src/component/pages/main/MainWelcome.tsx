@@ -92,14 +92,6 @@ const MainWelcome = () => {
                 </div>
               </div>
             </div>
-            <iframe
-              src="https://www.youtube.com/embed/d4gYjrB2ePc?si=wW9pepetiOyF49kN"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className={scss.video}
-            ></iframe>
           </div>
         </div>
       </div>

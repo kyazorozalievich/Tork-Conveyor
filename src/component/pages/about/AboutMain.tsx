@@ -10,31 +10,58 @@ const AboutMain = () => {
         <div className={scss.content}>
           <h1>About Tork Mechatronics A.Ş.</h1>
           <h6>
-            A leading manufacturer of automatic machines for filling gas
-            cylinders with a commitment to precision, safety, and innovation.
+            Tork Mechatronics was founded in Cerkezkoy, Turkey with a clear
+            vision: to serve the custom machinery, handling systems and
+            precision parts needs of the area’s top regional and global
+            companies. Even through our early lean years, we tried to focus on
+            business that fit within our vision, and were selective in terms of
+            who we worked with and the type of work we performed. We seek to be
+            a company people want to work with, want to work for, and want in
+            the communities in which we do business.
           </h6>
           <div className={scss.aboutContent}>
             <div className={scss.aboutStory}>
-              <h5>OUR STORY</h5>
-              <h1>Leading the Gas Industry Forward</h1>
+              <h2>WHY CHOOSE US?</h2>
               <div className={scss.description}>
-                <p>
-                  Tork Mechatronics A.Ş. is a leading manufacturer of automatic
-                  machines for filling gas cylinders. We create reliable,
-                  high-precision, and safe systems that ensure efficient and
-                  accident-free filling of cylinders of various capacities.
-                </p>
-                <p>
-                  Founded in 2005, we've grown from a small engineering firm to
-                  an international player in the gas cylinder automation
-                  industry. Our commitment to innovation and safety has made us
-                  a trusted partner for companies worldwide.
-                </p>
-                <p>
-                  We specialize in developing comprehensive solutions that
-                  optimize the entire gas cylinder filling process, from initial
-                  setup to quality control and distribution.
-                </p>
+                <div className={scss.group}>
+                  <h3>1.</h3>
+                  <p>
+                    <span>Safety and Environment Consciousness</span> <br />
+                    Tork Mechatronics delivers only safe and eco-friendly
+                    products to our partners. We follow closely directives and
+                    norms and never supply a product without CE Declaration.
+                  </p>
+                </div>
+                <div className={scss.group}>
+                  <h3>2.</h3>
+                  <p>
+                    <span>Quality</span> <br />
+                    Our reputation for exceeding the highest quality standards
+                    in precision parts machining is precisely why our customers
+                    choose us, and chooseto stay with us. Our first customer is
+                    still our customer almost three decades later because of the
+                    quality they get machine after machine, yearafter year.
+                  </p>
+                </div>
+                <div className={scss.group}>
+                  <h3>3.</h3>
+                  <p>
+                    <span>Lean Business Philosophy</span> <br />
+                    We’ve built our business with a simple philosophy: deliver
+                    the best with the best!
+                  </p>
+                </div>
+                <div className={scss.group}>
+                  <h3>4.</h3>
+                  <p>
+                    <span>Teamwork</span> <br />
+                    Last but not least; Working well together – inside and
+                    outside the company – is critical to any rewarding business
+                    relationship. The willingness to make sacrifices and work
+                    harder in the name of mutual benefit is one of the things
+                    our clients appreciate, and that they say sets us apart.
+                  </p>
+                </div>
               </div>
             </div>
             <Image src={aboutImg} alt="" width={400} height={200} />

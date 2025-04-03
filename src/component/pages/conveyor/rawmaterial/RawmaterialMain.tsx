@@ -4,10 +4,10 @@ import MainAllPage from "../ConveyorPages/MainAllPage";
 const RawmaterialMain = () => {
   const mainData = {
     bgImg:
-      "https://i.pinimg.com/736x/e6/14/06/e61406dbe70e737bf684cb8eae8caf0f.jpg",
-    title: "Industrial Production Conveyor Solutions",
+      "https://i.pinimg.com/736x/c8/7a/ea/c87aea969014dfa1d8ff29c49583eaf6.jpg",
+    title: "Raw Materials Conveyor Systems",
     description:
-      "Enhancing efficiency in automotive, home appliances, and pharmaceutical industries.",
+      "Heavy-duty conveyor solutions for efficient handling of wood, marble, gypsum, and other raw materials.",
   };
   return <MainAllPage el={mainData} />;
 };

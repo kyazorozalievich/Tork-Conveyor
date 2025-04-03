@@ -8,7 +8,8 @@
     .consultationBlock {
       width: 800px;
       height: 300px;
-      background: white;
+      background: rgba(0, 0, 0, 0.196);
+      backdrop-filter: blur(20px);
       border-radius: 20px;
       display: flex;
       align-items: center;
@@ -19,13 +20,12 @@
       padding: 30px;
       h2 {
         font-size: 35px;
-       
-        color: #1e90ff;
+        color: white;
       }
       h6 {
         font-size: 18px;
         font-weight: 400;
-        color: dimgray;
+        color: white;
         width: 100%;
       }
       button {
@@ -35,14 +35,14 @@
         font-weight: bold;
         transition: 0.4s ease-in-out;
         cursor: pointer;
-        background: #1e90ff;
+        background: #3e8279;
         color: white;
         border: none;
-        box-shadow: 0 4px 10px rgba(0, 70, 140, 0.3);
+        box-shadow: 0 4px 10px rgba(58, 58, 58, 0.3);
 
         &:hover {
           transform: scale(1.05);
-          box-shadow: 0 6px 15px rgba(0, 70, 140, 0.5);
+          box-shadow: 0 6px 15px rgba(58, 58, 58, 0.3);
         }
       }
     }

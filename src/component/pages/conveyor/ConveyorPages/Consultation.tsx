@@ -16,7 +16,7 @@ const Consultation = () => {
             </h6>
             <button onClick={() => router.push("/contact")}>Contact Us</button>
           </div>
-        </div>
+        </div> 
       </div>
     </section>
   );

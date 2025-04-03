@@ -1,14 +1,13 @@
 "use client";
 import MainAllPage from "../ConveyorPages/MainAllPage";
 
-
 const TexileMain = () => {
   const mainData = {
     bgImg:
-      "https://i.pinimg.com/736x/e6/14/06/e61406dbe70e737bf684cb8eae8caf0f.jpg",
-    title: "Industrial Production Conveyor Solutions",
+      "https://i.pinimg.com/736x/da/8a/02/da8a0240cb67df221b63177d094ad6c7.jpg",
+    title: "Textile Industry Conveyor Solutions",
     description:
-      "Enhancing efficiency in automotive, home appliances, and pharmaceutical industries.",
+      "Specialized systems designed for gentle, efficient handling of all textile materials.",
   };
   return <MainAllPage el={mainData} />;
 };
