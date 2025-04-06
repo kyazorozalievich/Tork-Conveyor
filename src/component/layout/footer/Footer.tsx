@@ -96,7 +96,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className={scss.footer}>
-        <h6>ConveyorE® by — Conveyor Technologies Catalog – 2025</h6>
+        <h6>© 2025 Tork A.S. All rights reserved.</h6>
       </div>
     </section>
   );

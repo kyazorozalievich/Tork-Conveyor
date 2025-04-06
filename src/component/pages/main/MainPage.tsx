@@ -1,9 +1,9 @@
 import React from "react";
 import MainWelcome from "./MainWelcome";
-import MainEquipment from "./MainEquipment";
 import Consultation from "../conveyor/ConveyorPages/Consultation";
 import MainConveyors from "./MainConveyors";
 import MainInfo from "./MainInfo";
+import MainQuestions from "./MainQuestions";
 
 const MainPage = () => {
   return (
@@ -14,9 +14,9 @@ const MainPage = () => {
       }}
     >
       <MainWelcome />
-      <MainEquipment />
       <MainConveyors />
       <MainInfo />
+      <MainQuestions />
       <Consultation />
     </div>
   );

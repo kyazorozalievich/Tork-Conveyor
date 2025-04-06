@@ -9,6 +9,7 @@ const ContactMap = () => {
         <div className={scss.content}>
           <h5>OUR LOCATION</h5>
           <h1>Visit Our Company</h1>
+          <div className={scss.hr}></div>
           <h6>Come see our facilities and meet our team in person.</h6>
           <Map />
         </div>

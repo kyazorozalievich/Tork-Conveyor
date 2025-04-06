@@ -54,6 +54,7 @@ const AboutCompany = () => {
         <div className={scss.content}>
           <h5>PARTNERS</h5>
           <h1>Trusted by industry leaders</h1>
+          <div className={scss.hr}></div>
           <p>
             is a key factor determining the success of a company, product or
             service. When recognized experts and leading market players express

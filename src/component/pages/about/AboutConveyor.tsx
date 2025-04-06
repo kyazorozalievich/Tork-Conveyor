@@ -11,7 +11,7 @@ import { MdOutlineChevronLeft, MdOutlineChevronRight } from "react-icons/md";
 import { useRef } from "react";
 import { FaAngleRight } from "react-icons/fa";
 import { useRouter } from "next/navigation";
- 
+
 const AboutConveyor = () => {
   const router = useRouter();
 
@@ -80,7 +80,8 @@ const AboutConveyor = () => {
         <div className={scss.content}>
           <h5>CONVEYORS</h5>
           <h1>all types of conveyors</h1>
-       
+          <div className={scss.hr}></div>
+
           <div className={scss.ConveyorBlocks} ref={characterRef}>
             <button className={scss.left} onClick={scrollLeft}>
               <MdOutlineChevronLeft />

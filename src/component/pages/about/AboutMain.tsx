@@ -9,6 +9,8 @@ const AboutMain = () => {
       <div className="container">
         <div className={scss.content}>
           <h1>About Tork Mechatronics A.Ş.</h1>
+          <div className={scss.hr}></div>
+
           <h6>
             Tork Mechatronics was founded in Cerkezkoy, Turkey with a clear
             vision: to serve the custom machinery, handling systems and

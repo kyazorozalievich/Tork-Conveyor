@@ -1,0 +1,92 @@
+.Questions {
+  padding-block: 50px;
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    .text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+      h5 {
+        color: white;
+        font-size: clamp(0.813rem, 0.772rem + 0.2vw, 0.938rem);
+        font-weight: 500;
+        padding-inline: 10px;
+        padding-block: 5px;
+        border-radius: 50px;
+        background: #0104082e;
+      }
+      h1 {
+        font-size: clamp(1.563rem, 1.256rem + 1.53vw, 2.5rem);
+        color: white;
+      }
+      .hr {
+        width: 120px;
+        height: 3px;
+        background: white;
+      }
+    }
+    .questionBlocks {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      .questionBlock {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border: 2px solid rgba(128, 128, 128, 0.582);
+        width: 100%;
+        height: auto;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.196);
+        backdrop-filter: blur(20px);
+
+        h3 {
+          padding-block: 20px;
+          padding-inline: 20px;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          font-size: clamp(0.938rem, 0.835rem + 0.51vw, 1.25rem);
+          font-weight: 500;
+        }
+        p {
+          padding-bottom: 20px;
+          padding-inline: 20px;
+          width: 100%;
+          font-size: clamp(0.813rem, 0.71rem + 0.51vw, 1.125rem);
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Questions {
+    padding-block: 20px;
+    .content {
+      .questionBlocks {
+        .questionBlock {
+          h3 {
+            padding-block: 10px;
+            padding-inline: 10px;
+          }
+          p {
+            padding-bottom: 10px;
+            padding-inline: 10px;
+          }
+        }
+      }
+    }
+  }
+}

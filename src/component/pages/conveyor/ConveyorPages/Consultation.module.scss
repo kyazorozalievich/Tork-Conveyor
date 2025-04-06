@@ -19,11 +19,11 @@
       gap: 30px;
       padding: 30px;
       h2 {
-        font-size: 35px;
+        font-size: clamp(1.563rem, 1.256rem + 1.53vw, 2.5rem);
         color: white;
       }
       h6 {
-        font-size: 18px;
+        font-size: clamp(0.813rem, 0.767rem + 0.23vw, 0.938rem);
         font-weight: 400;
         color: white;
         width: 100%;
@@ -55,14 +55,8 @@
       .consultationBlock {
         border-radius: 10px;
         height: 250px;
-        h2 {
-          font-size: 25px;
-        }
-        h6 {
-          font-size: 15px;
-        }
         button {
-          font-size: 13px;
+          font-size: 15px;
           padding-inline: 20px;
           padding-block: 10px;
         }
@@ -77,26 +71,9 @@
       .consultationBlock {
         height: 300px;
         h2 {
-          font-size: 25px;
           width: 100%;
         }
-        h6 {
-          font-size: 15px;
-        }
         button {
-          font-size: 13px;
-          padding-inline: 20px;
-          padding-block: 10px;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 400px) {
-  .Consultation {
-    .content {
-      .consultationBlock {
-        h6 {
           font-size: 13px;
         }
       }

@@ -8,14 +8,19 @@
     justify-content: center;
     width: 100%;
     gap: 20px;
+    text-align: center;
 
     h1 {
-      font-size: 40px;
-
+      font-size: clamp(1.563rem, 1.222rem + 1.7vw, 2.5rem);
       color: white;
     }
+    .hr {
+      width: 120px;
+      height: 3px;
+      background: white;
+    }
     h6 {
-      font-size: 18px;
+      font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
       font-weight: 400;
       color: white;
       width: 80%;
@@ -34,7 +39,7 @@
         gap: 10px;
         width: 50%;
         h2 {
-          font-size: 30px;
+          font-size: clamp(1.25rem, 1.023rem + 1.14vw, 1.875rem);
           color: white;
         }
         .description {
@@ -50,12 +55,13 @@
             width: 100%;
             h3 {
               color: white;
+              font-size: clamp(0.938rem, 0.824rem + 0.57vw, 1.25rem);
             }
             p {
               span {
                 font-weight: 500;
               }
-              font-size: 18px;
+              font-size: clamp(0.813rem, 0.699rem + 0.57vw, 1.125rem);
               font-weight: 300;
               color: white;
               text-align: start;
@@ -74,54 +80,7 @@
   }
 }
 
-@media (max-width: 1250px) {
-  .AboutMain {
-    .content {
-      .aboutContent {
-        .aboutStory {
-          h2 {
-            width: 80%;
-          }
-          .description {
-            p {
-              font-size: 15px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 1150px) {
-  .AboutMain {
-    .content {
-      .aboutContent {
-        img {
-          width: 500px;
-          height: 500px;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 1024px) {
-  .AboutMain {
-    .content {
-      .aboutContent {
-        .aboutStory {
-          .description {
-            gap: 10px;
-          }
-        }
-        img {
-          width: 450px;
-          height: 450px;
-        }
-      }
-    }
-  }
-}
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .AboutMain {
     .content {
       .aboutContent {
@@ -129,13 +88,9 @@
         gap: 40px;
         .aboutStory {
           width: 100%;
-          .description {
-            gap: 10px;
-          }
         }
         img {
           width: 100%;
-          height: 350px;
         }
       }
     }
@@ -143,44 +98,20 @@
 }
 @media (max-width: 768px) {
   .AboutMain {
-    padding: 150px 0 100px 0;
-    .content {
-      h1 {
-        font-size: 25px;
-      }
-      h6 {
-        font-size: 15px;
-      }
-      h5 {
-        font-size: 13px;
-      }
-      .aboutContent {
-        flex-direction: column;
-        gap: 40px;
-        margin-top: 20px;
-        .aboutStory {
-          width: 100%;
-
-          .description {
-            gap: 10px;
-            p {
-              font-size: 15px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 430px) {
-  .AboutMain {
     .content {
       h6 {
         width: 100%;
       }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .AboutMain {
+    .content {
       .aboutContent {
         img {
-          height: 250px;
+          height: 300px;
+          border-radius: 5px;
         }
       }
     }

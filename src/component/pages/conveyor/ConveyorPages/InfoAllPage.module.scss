@@ -19,19 +19,20 @@
       text-align: center;
       color: white;
       h2 {
-        font-size: 35px;
+        font-size: clamp(1.563rem, 1.358rem + 1.02vw, 2.188rem);
       }
       p {
-        width: 70%;
+        width: 80%;
+        font-size: clamp(0.813rem, 0.67rem + 0.71vw, 1.25rem);
       }
     }
     .infoBlocks {
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: space-between;
       width: 100%;
       .infoBlock {
-        width: 400px;
+        width: 32%;
         height: 300px;
         background: rgba(0, 0, 0, 0.196);
         backdrop-filter: blur(20px);
@@ -50,7 +51,62 @@
           box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.196);
         }
         a {
-          font-size: 50px;
+          font-size: clamp(1.563rem, 1.052rem + 2.55vw, 3.125rem);
+        }
+        h3 {
+          font-size: clamp(0.813rem, 0.568rem + 1.22vw, 1.563rem);
+        }
+        p {
+          font-size: clamp(0.813rem, 0.772rem + 0.2vw, 0.938rem);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .InfoAllPage {
+    .content {
+      .infoBlocks {
+        .infoBlock {
+          height: 350px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .InfoAllPage {
+    .content {
+      .infoBlocks {
+        flex-wrap: wrap;
+        gap: 20px;
+        .infoBlock {
+          width: 45%;
+          height: 280px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 570px) {
+  .InfoAllPage {
+    .content {
+      gap: 10px;
+      .mainText {
+        h3 {
+          width: 100%;
+        }
+        p {
+          width: 100%;
+        }
+      }
+      .infoBlocks {
+        flex-wrap: wrap;
+        gap: 20px;
+        .infoBlock {
+          width: 100%;
+          height: auto;
         }
       }
     }

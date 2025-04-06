@@ -1,5 +1,5 @@
 .AboutConveyor {
-  padding-top: 100px;
+  padding-bottom: 100px;
   .content {
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@
     text-align: center;
     h5 {
       color: white;
-      font-size: 15px;
+      font-size: clamp(0.813rem, 0.767rem + 0.23vw, 0.938rem);
       font-weight: 500;
       padding-inline: 10px;
       padding-block: 5px;
@@ -16,16 +16,21 @@
       background: #0104082e;
     }
     h1 {
-      font-size: 40px;
-
+      font-size: clamp(1.563rem, 1.222rem + 1.7vw, 2.5rem);
       color: white;
       width: 70%;
     }
+    .hr {
+      width: 120px;
+      height: 3px;
+      background: white;
+    }
     p {
-      font-size: 20px;
+      font-size: clamp(0.938rem, 0.824rem + 0.57vw, 1.25rem);
       color: white;
       padding-bottom: 30px;
       width: 80%;
+      font-weight: 400;
     }
     .ConveyorBlocks {
       button {
@@ -79,13 +84,13 @@
           border-radius: 10px;
         }
         h3 {
-          font-size: 20px;
+          font-size: clamp(0.938rem, 0.824rem + 0.57vw, 1.25rem);
           font-weight: 500;
           color: white;
         }
         p {
           text-align: start;
-          font-size: 15px;
+          font-size: clamp(0.813rem, 0.767rem + 0.23vw, 0.938rem);
           width: 100%;
           padding-bottom: 0;
         }
@@ -113,103 +118,21 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 650px) {
   .AboutConveyor {
-    .content {
-      align-items: start;
-      text-align: start;
-      h1 {
-        width: 100%;
-      }
-      p {
-        width: 100%;
-      }
-    }
-  }
-}
-@media (max-width: 768px) {
-  .AboutConveyor {
-    padding-block: 20px;
-    .content {
-      h5 {
-        font-size: 15px;
-      }
-      h1 {
-        width: 80%;
-        font-size: 25px;
-      }
-      p {
-        width: 100%;
-      }
-      .ConveyorBlocks {
-        padding-inline: 0;
-        height: 600px;
-        button {
-          padding-inline: 5px;
-          padding-block: 2px;
-        }
-        .ConveyorBlock {
-          width: 350px;
-          height: 570px;
-          h3 {
-            font-size: 18px;
-          }
-          ul {
-            li {
-              font-size: 13px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 450px) {
-  .AboutConveyor {
+    padding-bottom: 50px;
     .content {
       h1 {
         width: 100%;
       }
       .ConveyorBlocks {
-        height: 600px;
+        height: 400px;
         button {
-          padding-inline: 5px;
-          padding-block: 2px;
-          border: none;
-        }
-        .ConveyorBlock {
-          width: 320px;
-          height: 570px;
-          img {
-            height: 250px;
-          }
-          h3 {
-            font-size: 18px;
-          }
-          ul {
-            li {
-              font-size: 13px;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media (max-width: 400px) {
-  .AboutConveyor {
-    .content {
-      .ConveyorBlocks {
-        height: 550px;
-        button {
-          padding-inline: 5px;
-          padding-block: 2px;
           border: none;
         }
         .ConveyorBlock {
           width: 300px;
-          height: 500px;
+          height: 350;
           img {
             height: 200px;
           }

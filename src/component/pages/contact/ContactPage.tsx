@@ -4,9 +4,7 @@ import ContactMap from "./ContactMap";
 
 const ContactPage = () => {
   return (
-    <div
-     
-    >
+    <div>
       <ContactMain />
       <ContactMap />
     </div>

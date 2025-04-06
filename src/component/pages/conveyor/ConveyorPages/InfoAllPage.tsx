@@ -39,7 +39,7 @@ const InfoAllPage = ({ data }: IEL) => {
                 <div className={scss.infoBlock} key={id}>
                   <a>{el.icon}</a>
                   <h3>{el.title}</h3>
-                  <p>{el.description}</p>
+                  <p>{el.description}</p> 
                 </div>
               ))}
             </div>

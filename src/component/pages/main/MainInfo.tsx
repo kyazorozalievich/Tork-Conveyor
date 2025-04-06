@@ -9,13 +9,15 @@ import Image from "next/image";
 const MainInfo = () => {
   return (
     <section className={scss.MainInfo}>
-      <div className="container">
+      <div className="container"> 
         <div className={scss.content}>
           <div className={scss.texts}>
-            <h3>
+            <h1>
               conveyorE is a brand of Tork Mechatronics, specially created for
               conveyor technique. «E» stands for engineering and efficiency;
-            </h3>
+            </h1>
+            <div className={scss.hr}></div>
+
             <ul>
               <li>
                 <span>Engineering :</span> Our highly experienced machinery,
@@ -87,7 +89,6 @@ const MainInfo = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

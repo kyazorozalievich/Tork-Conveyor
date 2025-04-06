@@ -57,13 +57,15 @@ const MainConveyors = () => {
         <div className={scss.content}>
           <div className={scss.text}>
             <h1>Our Expertise Across Industries</h1>
+            <div className={scss.hr}></div>
+
             <h6>
               Tork A.S. has been delivering reliable conveyor solutions to
               diverse industries around the world.
             </h6>
           </div>
           <div className={scss.blocks}>
-            {data.map((el, idx) => (
+            {data.map((el, idx) => ( 
               <div
                 className={scss.block}
                 key={idx}

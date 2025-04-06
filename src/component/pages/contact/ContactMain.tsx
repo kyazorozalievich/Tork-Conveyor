@@ -88,6 +88,8 @@ const ContactMain = () => {
         <div className={scss.content}>
           <h5>GET IN TOUCH</h5>
           <h1>Contact Us</h1>
+          <div className={scss.hr}></div>
+
           <h6>
             Have questions about our products or services? We're here to help.
           </h6>

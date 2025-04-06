@@ -11,7 +11,7 @@
   transition: transform 0.3s ease-in-out;
   .content {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
     width: 100%;
     height: 80px;
@@ -154,7 +154,7 @@
   position: fixed;
   top: 90px;
   right: 5%;
-  z-index: 98;
+  z-index: 99;
   .icons {
     display: flex;
     align-items: center;
@@ -200,32 +200,6 @@
     .content {
       .nav {
         gap: 30px;
-      }
-    }
-  }
-  .contactList {
-    z-index: 99;
-    opacity: 100;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    background: #1e90ff;
-    width: 50px;
-    padding-block: 10px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    border-bottom: 2px solid transparent;
-    border-radius: 10px;
-    transition: 0.5s ease-in-out;
-    a {
-      color: white;
-      font-size: 20px;
-      border-bottom: 2px solid transparent;
-      &:hover {
-        transform: scale(1.02);
-        border-bottom: 2px solid white;
       }
     }
   }
@@ -282,8 +256,9 @@
               right: 0px;
               z-index: 2;
               gap: 10px;
-              height: 180px;
+              height: auto;
               padding-block: 20px;
+              padding-inline: 10px;
               display: flex;
               align-items: start;
               flex-direction: column;

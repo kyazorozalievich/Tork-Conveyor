@@ -11,8 +11,8 @@ const RawmaterialPage = () => {
       <RawmaterialMain />
       <RawmaterialInfo />
       <RawmaterialIndustry />
-      <Consultation />
       <RawmaterialSpetification />
+      <Consultation />
     </div>
   );
 };
