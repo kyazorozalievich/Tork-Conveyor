@@ -221,6 +221,7 @@
       }
       .burgerMenu {
         display: block;
+        z-index: 99;
         button {
           background: transparent;
           border: none;
