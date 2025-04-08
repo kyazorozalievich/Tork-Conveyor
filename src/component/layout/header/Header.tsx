@@ -14,9 +14,7 @@ import arabic from "../../assets/images/header/flag-Arabic.png";
 import spain from "../../assets/images/header/flag-Spain.png";
 import logo from "../../assets/images/logo.png";
 import { MdOutlineMail } from "react-icons/md";
-import { RiMenu3Fill, RiWhatsappFill, RiWhatsappLine } from "react-icons/ri";
-import { LuPhone } from "react-icons/lu";
-import { GrMapLocation } from "react-icons/gr";
+import { RiMenu3Fill, RiWhatsappFill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
 
 const Header = () => {
