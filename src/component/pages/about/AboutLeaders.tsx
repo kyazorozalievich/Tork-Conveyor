@@ -42,7 +42,7 @@ const AboutLeaders = () => {
           <div className={scss.leaders}>
             {leaderData.map((el, idx) => (
               <div className={scss.leaderCard} key={idx}>
-                <Image src={el.img} alt={el.name} width={300} height={400}/>
+                <Image src={el.img} alt={el.name} width={300} height={400} />
                 <h3>{el.name}</h3>
                 <h4>{el.jobTitile}</h4>
                 <p>{el.description}</p>

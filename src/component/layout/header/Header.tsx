@@ -137,16 +137,16 @@ const Header = () => {
                     pathname === "/conveyor/production-industry"
                       ? scss.active
                       : pathname === "/conveyor/logistics-industry"
-                      ? scss.active
-                      : pathname === "/conveyor/rawmaterials-industry"
-                      ? scss.active
-                      : pathname === "/conveyor/tobacco-industry"
-                      ? scss.active
-                      : pathname === "/conveyor/textile-industry"
-                      ? scss.active
-                      : pathname === "/conveyor/food-industry"
-                      ? scss.active
-                      : scss.link
+                        ? scss.active
+                        : pathname === "/conveyor/rawmaterials-industry"
+                          ? scss.active
+                          : pathname === "/conveyor/tobacco-industry"
+                            ? scss.active
+                            : pathname === "/conveyor/textile-industry"
+                              ? scss.active
+                              : pathname === "/conveyor/food-industry"
+                                ? scss.active
+                                : scss.link
                   }
                 >
                   Conveyors <FaAngleDown />
@@ -177,7 +177,7 @@ const Header = () => {
               >
                 Contact
               </Link>
-              <div className={scss.translation}>
+              {/* <div className={scss.translation}>
                 <button>
                   <TbWorld />
                   Language
@@ -197,7 +197,7 @@ const Header = () => {
                     ))}
                   </div>
                 )}
-              </div>
+              </div> */}
             </div>
             <div className={scss.burgerMenu}>
               <button onClick={() => setBurger(true)}>
@@ -226,7 +226,7 @@ const Header = () => {
                             href={item.href}
                             key={index}
                             onClick={() => {
-                              setModalBurger(true), setBurger(false);
+                              (setModalBurger(true), setBurger(false));
                             }}
                           >
                             {item.title}
@@ -251,7 +251,7 @@ const Header = () => {
                   >
                     Contact
                   </Link>
-                  <div className={scss.translation}>
+                  {/* <div className={scss.translation}>
                     <button onClick={() => setLanguageBurger(!languageBurger)}>
                       <span>
                         <TbWorld />
@@ -280,7 +280,7 @@ const Header = () => {
                         ))}
                       </div>
                     )}
-                  </div>
+                  </div> */}
                   <button onClick={() => setBurger(false)}>
                     Close <IoClose />
                   </button>

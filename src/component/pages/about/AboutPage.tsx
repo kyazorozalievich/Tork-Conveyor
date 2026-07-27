@@ -10,7 +10,7 @@ const AboutPage = () => {
     <div>
       <AboutMain />
       <AboutConveyor />
-      <AboutLeaders />
+      {/* <AboutLeaders /> */}
       <AboutCompany />
       <Consultation />
     </div>
